@@ -1,0 +1,63 @@
+@font-face {font-family:"Runescape Chat Font Regular";src:url("/font/runescape_chat_font.eot") format("eot"),url("/font/runescape_chat_font.woff") format("woff"),url("/font/runescape_chat_font.ttf") format("truetype");font-weight:normal;font-style:normal;}
+h1{
+    color:yellow;
+    font-family: "Runescape Chat Font Regular";
+    text-shadow: 2px 2px 3px black;
+}
+*{
+    
+    margin:0;
+    padding: 0;
+}
+body,html{
+    background: linear-gradient(#92a8d1,#034f84);
+    min-height: 100%;
+
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.heading{
+    grid-column: span 2;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    background:linear-gradient(0deg,#034f84
+    ,white 40%,#92a8d1);
+    grid-column: span 1;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 3px;
+}
+#container{
+    display: grid;
+    border: solid;
+    height: 800px;
+    background-color: white;
+    grid-column: span 1;
+}
+.gray{
+    background-color: gray;
+}
+.grid-pixel{
+    border:solid .5px;
+}
+.menu-item1{
+    display: grid;
+    justify-content: center;
+}
+button{
+    border-radius: 7px;
+    cursor: pointer;
+    padding:7px;
+    border-color: black;
+
+}
+#menu-item{
+    padding:30px;
+}

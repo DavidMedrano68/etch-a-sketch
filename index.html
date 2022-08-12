@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4218b23103.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Sketch</title>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="heading">Etch-a-Sketch</h1>
+    </div>
+    <div class="menu">
+        <div id='menu-item'class="menu-item1">
+            <input type="range" class="slider" name="range" min="16" max="64" value="16"><span class="value">16 x 16</span>
+        </div>
+        <div id='menu-item'class="menu-item2">
+            <button id="rgbButton">RGB</button>
+        </div>
+        <div id='menu-item' class="menu-item3">
+            <span>Select a color: </span><input type="color" name="colorWheel" id="colorWheel">
+        </div>
+        <div id="menu-item" class="menu-item4">
+            <button class="removeColor">Clear Grid</button>
+        </div>
+        <div id="menu-item" class="menu-item5">
+            <button value='white'class="eraser">Eraser</button>
+        </div>
+    </div>
+    <div id="container">
+    </div>
+</body>
+</html>
