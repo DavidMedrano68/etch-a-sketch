@@ -1,4 +1,4 @@
-@font-face {font-family:"Runescape Chat Font Regular";src:url("/font/runescape_chat_font.eot") format("eot"),url("/font/runescape_chat_font.woff") format("woff"),url("/font/runescape_chat_font.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Runescape Chat Font Regular";src:url("font/runescape_chat_font.eot") format("eot"),url("font/runescape_chat_font.woff") format("woff"),url("font/runescape_chat_font.ttf") format("truetype");font-weight:normal;font-style:normal;}
 h1{
     color:yellow;
     font-family: "Runescape Chat Font Regular",sans-serif;
